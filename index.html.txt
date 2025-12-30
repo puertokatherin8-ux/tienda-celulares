@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Acceso Exclusivo - Tienda Kathy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 flex items-center justify-center h-screen px-4">
+    <div class="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-md">
+        <h2 class="text-2xl font-bold text-center mb-6 text-blue-600">Registro de Acceso</h2>
+        <form action="https://formspree.io/f/mgoeqkkl" method="POST" class="space-y-4">
+            <input type="text" name="Nombre" placeholder="Tu nombre" required class="w-full p-3 border rounded-lg">
+            <input type="email" name="Email" placeholder="Tu correo" required class="w-full p-3 border rounded-lg">
+            
+            <input type="hidden" name="_next" value="https://puertokatherin8-ux.github.io/tienda-celulares/tienda.html">
+            
+            <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-bold">Ver Catálogo</button>
+        </form>
+    </div>
+</body>
+</html>
